@@ -4,6 +4,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign(object, { [key] : value})
 }
 
-updateObjectWithKeyAndValue(recipes, butter, 4)
+updateObjectWithKeyAndValue(recipes, 'butter', 4)
 
 console.log(recipes)
